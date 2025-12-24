@@ -34,7 +34,7 @@ jobs:
     if: github.ref != 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout czode
         uses: actions/checkout@v4
 
       - name: Set up JDK 17
