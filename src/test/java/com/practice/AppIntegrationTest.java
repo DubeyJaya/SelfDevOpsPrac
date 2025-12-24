@@ -1,6 +1,7 @@
 package com.practice;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.Test;
 
 public class AppIntegrationTest {
@@ -13,7 +14,7 @@ public class AppIntegrationTest {
         assertEquals(30, product);  // (10+5)*2 = 30
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void testSubAndDivTogether() {
         App app = new App();
         int diff = app.sub(20, 4);
